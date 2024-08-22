@@ -1,8 +1,24 @@
 @media print, (max-width: 767px) {
 
     :root {
-        --font_size_title: 28px;
+        --font_size_title: 40px;
         --font_size: 16px;
+    }
+
+    .tariff_items > * {
+        width: 100%;
+        min-height: 100%;
+    }
+    .tariff_item.active .tariff_item-price {
+        margin-top: 32px;
+        text-align: center;
+    }
+    .tariff_item-price {
+        margin-top: 32px;
+        text-align: center;
+    }
+    .problem_wrap {
+        flex-direction: column;
     }
 
     

@@ -1,6 +1,45 @@
 @media print, (max-width: 1187px) {
 
-
+    :root {
+        --font_size_title: 50px;
+    }
+    .segmentation_img {
+        width: 300px;
+        height: 248px;
+    }
+    .segmentation_info {
+        width: calc(100% - 340px);
+    }
+    .segmentation_wrap {
+        gap: 40px;
+    }
+    .prevention_img {
+        width: 360px;
+        height: 282px;
+    }
+    .prevention_wrap {
+        gap: 40px;
+        align-items: center;
+    }
+    .prevention_info {
+        width: calc(100% - 400px);
+    }
+    .problem_wrap {
+        gap: 70px;
+    }
+    .problem_right {
+        width: calc(100% - 527px);
+        padding: 0;
+    }
+    .problem_left {
+        padding: 0;
+    }
+    header {
+        background-position: -250px center;
+    }
+    .title {
+        margin-bottom: 40px;
+    }
 
 
 

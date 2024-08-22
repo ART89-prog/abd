@@ -1,7 +1,7 @@
 @media print, (max-width: 1023px) {
  
     :root {
-        --font_size_title: 28px;
+        --font_size_title: 46px;
         --font_size: 16px;
     }
     header .mob_menu_btn {
@@ -92,6 +92,60 @@
         z-index: 999;
         position: absolute;
     }
+
+    header {
+        background-position: -380px center;
+    }
+    .header_info {
+        max-width: 525px;
+    }
+    .header_bonus span:nth-child(1) {
+        right: 0;
+    }
+    .header_bonus span:nth-child(2) {
+        bottom: 130px;
+        right: 0;
+    }
+    .generation_items > * {
+        width: calc(100% / 2 - 22px);
+        padding: 18px;
+        min-height: 340px;
+    }
+    .segmentation_items {
+        flex-direction: column;
+    }
+    .problem_right ol li {
+        font-size: 18px;
+    }
+    .problem_right {
+        width: calc(100% - 334px);
+    }
+    .problem_wrap {
+        gap: 35px;
+    }
+    .tariff_items > * {
+        width: 100%;
+        min-height: 100%;
+    }
+    .tariff_items > * {
+        width: calc(100% / 2 - 22px);
+        min-height: 500px;
+    }
+    .tariff_item-label {
+        margin-bottom: 20px;
+    }
+    .callback_info {
+        padding: 32px 24px;
+        max-width: 100%;
+    }
+    .callback_wrap {
+        flex-direction: column;
+    }
+    .callback_form {
+        padding: 32px 24px;
+        width: 100%;
+    }
+
 
     
 
