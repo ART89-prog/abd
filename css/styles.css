@@ -372,6 +372,7 @@ header .menu .item + .item {
 .header_list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 104px;
 }
@@ -384,6 +385,7 @@ header .menu .item + .item {
     font-size: var(--font_size);
     line-height: 100%;
     color: #FFFFFF;
+    white-space: nowrap;
 }
 .header_subtitle {
     font-family: var(--font_family);
@@ -428,6 +430,9 @@ header .menu .item + .item {
 }
 .header_btn:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #5C53E6;
+}
+.header_logo-mob {
+    display: none;
 }
 
 .header_bonus span {
@@ -1088,10 +1093,13 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
+.footer_logo {
+    display: block;
+}
 .footer_info {
     display: flex;
     align-items: center;
-    gap: 80px;
+    width: 100%;
 }
 .footer_soc {
     font-family: var(--font_family);
@@ -1100,6 +1108,8 @@ footer {
     line-height: 100%;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 80px;
+    margin-left: auto;
 }
 .footer_politic {
     font-family: var(--font_family);
@@ -1108,6 +1118,7 @@ footer {
     line-height: 100%;
     color: #FFFFFF;
     text-decoration: none;
+    white-space: nowrap;
 }
 .footer_date {
     font-family: var(--font_family);
@@ -1115,6 +1126,11 @@ footer {
     font-size: var(--font_size);
     line-height: 100%;
     color: #FFFFFF;
+}
+.footer_box {
+    display: flex;
+    align-items: center;
+    gap: 80px;
 }
 
 

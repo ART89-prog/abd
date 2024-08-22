@@ -29,10 +29,10 @@
     }
     .problem_right {
         width: calc(100% - 527px);
-        padding: 0;
+        padding: 20px;
     }
     .problem_left {
-        padding: 0;
+        padding: 20px;
     }
     header {
         background-position: -250px center;

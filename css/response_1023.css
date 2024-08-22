@@ -1,7 +1,7 @@
 @media print, (max-width: 1023px) {
  
     :root {
-        --font_size_title: 46px;
+        --font_size_title: 40px;
         --font_size: 16px;
     }
     header .mob_menu_btn {
@@ -21,7 +21,7 @@
         min-height: -webkit-fill-available;
         min-height:         fill-available;
         margin: 0;
-        padding: 30px;        
+        padding: 31px;       
         transition: transform .3s linear;
         transform: translateX(-100%);
         background: #fff;
@@ -39,6 +39,10 @@
     }
     .menu_open header .mob_menu_btn {
         display: none;
+    }
+    .menu_open header .header_logo-mob {
+        display: block;
+        margin-bottom: 76px;
     }
     header .menu .item {
         width: 100%;
@@ -68,7 +72,7 @@
         line-height: 1;
     }
     header .menu .item {
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
     header .menu .item:last-child {
         margin-bottom: 0px;
@@ -129,7 +133,7 @@
     }
     .tariff_items > * {
         width: calc(100% / 2 - 22px);
-        min-height: 500px;
+        min-height: 520px;
     }
     .tariff_item-label {
         margin-bottom: 20px;
@@ -144,6 +148,25 @@
     .callback_form {
         padding: 32px 24px;
         width: 100%;
+    }
+    .segmentation_items {
+        gap: 20px;
+    }
+    .segmentation_img {
+        width: 385px;
+        height: 318px;
+    }
+    .segmentation_wrap {
+        gap: 20px;
+    }
+    .prevention_info {
+        width: calc(100% - 365px);
+    }
+    .problem {
+        padding: 30px 0px;
+    }
+    .callback {
+        padding: 40px 0;
     }
 
 
