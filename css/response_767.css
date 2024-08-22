@@ -2,7 +2,7 @@
 
     :root {
         --font_size_title: 40px;
-        --font_size: 16px;
+        --font_size: 18px;
     }
 
     .tariff_items > * {
@@ -30,6 +30,7 @@
     }
     .footer_soc {
         margin-right: 0;
+        margin-left: 0;
     }
     .footer_logo {
         width: 109px;
@@ -41,9 +42,6 @@
     }
     footer {
         margin-top: -1px;
-    }
-    header {
-        /* background: none; */
     }
     .header_bonus span:nth-child(1),
     .header_bonus span:nth-child(2) {
@@ -75,7 +73,7 @@
         flex-direction: column;
     }
     header {
-        background-position: -380px -440px;
+        background-position: -380px -460px;
     }
     .header_label {
         text-align: center;
@@ -98,6 +96,7 @@
         text-align: center;
         color: #fff;
         align-items: center;
+        font-size: 16px;
     }
     .header_bonus span br {
         display: none;
@@ -111,8 +110,112 @@
     .block {
         margin-top: 40px;
     }
+    .generation_items > * {
+        width: 100%;
+    }
+    .generation_item-text {
+        margin-top: 20px;
+        min-height: auto;
+    }
+    .generation_items > * {
+        min-height: 100%;
+        padding: 24px;
+    }
+    .generation_item-btn {
+        margin-top: 28px;
+    }
+    .segmentation_wrap {
+        flex-direction: column-reverse;
+    }
+    .segmentation_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .segmentation_title {
+        text-align: center;
+    }
+    .segmentation .label {
+        text-align: center;
+        display: inline-flex;
+    }
+    .segmentation_item ul li {
+        font-size: 16px;
+    }
+    .prevention_title {
+        text-align: center;
+    }
+    .prevention_wrap {
+        flex-direction: column;
+    }
+    .prevention_info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .problem_left {
+        padding: 32px 24px;
+        width: 100%;
+    }
+    .problem_right {
+        padding: 32px 24px;
+        width: 100%;
+    }
+    .problem_wrap {
+        gap: 20px;
+    }
+    .problem_left ul li br {
+        display: none;
+    }
+    .problem_right ol li span {
+        font-size: 18px;
+    }
+    .tariff_items > * {
+        padding: 32px 24px;
+    }
+    .callback_text {
+        max-width: 100%;
+    }
+    .callback_info {
+        gap: 24px;
+    }
+    .callback_bottom-text,
+    .footer_soc,
+    .footer_politic,
+    .footer_date {
+        font-size: 16px;
+    }
+    .footer_box {
+        gap: 15px;
+    }
+    .footer_info {
+        justify-content: space-between;
+    }
+    .callback_box.active {
+        padding: 192px 20px;
+        width: auto;
+    }
+    .callback_box.active .callback_box-text br {
+        display: none;
+    }
+    .callback_box.active .callback_box-text {
+        line-height: 1.2;
+    }
+    .problem_left ul li:before,
+    .tariff_item ul li:before {
+        top: 6px;
+    } 
+    .tariff_item ul li {
+        line-height: 1.2;
+    }
+    .header_bonus span b {
+        font-size: 24px;
+    }
+    .generation_item-btn {
+        width: 145px;
+    }
 
-    
+
 
 
 

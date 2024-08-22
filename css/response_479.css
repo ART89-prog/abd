@@ -1,6 +1,19 @@
 @media (max-width: 479px) {
 
-
+    .prevention_img,
+    .prevention_img img,
+    .segmentation_img,
+    .segmentation_img img {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        background-position: -380px -480px;
+    }
+    .generation_item-btn {
+        width: 100%;
+        text-align: center;
+    }
 
   
 
