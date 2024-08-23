@@ -73,16 +73,19 @@
         flex-direction: column;
     }
     header {
-        background-position: -380px -370px;
+        background-position: -380px -375px;
+        background-size: cover;
     }
     .header_title {
         font-size: 43px;
+        max-width: 407px;
     }
     .header_top {
         margin-bottom: 34px;
     }
     .header_list {
         margin-bottom: 144px;
+        max-width: 450px;
     }
     .header_bonus span {
         padding: 14px 16px;
@@ -220,10 +223,19 @@
     .header_text {
         max-width: 100%;
     }
+    .tariff_item-price {
+        font-size: 64px;
+    }
+
+
+}
 
 
 
 
+@media print, (max-width: 590px) {
 
-
+    header {
+        background-position: -380px -435px;
+    }
 }
