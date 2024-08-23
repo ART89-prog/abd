@@ -73,10 +73,7 @@
         flex-direction: column;
     }
     header {
-        background-position: -380px -460px;
-    }
-    .header_label {
-        text-align: center;
+        background-position: -380px -370px;
     }
     .header_title {
         font-size: 43px;
@@ -213,6 +210,15 @@
     }
     .generation_item-btn {
         width: 145px;
+    }
+    .header_info {
+        max-width: 100%;
+    }
+    .header_btn {
+        width: 200px;
+    }
+    .header_text {
+        max-width: 100%;
     }
 
 

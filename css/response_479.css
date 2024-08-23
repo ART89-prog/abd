@@ -8,11 +8,20 @@
         height: auto;
     }
     header {
-        background-position: -380px -480px;
+        background-position: -380px -450px;
     }
     .generation_item-btn {
         width: 100%;
         text-align: center;
+    }
+    .header_label {
+        text-align: center;
+    }
+    .header_btn {
+        width: 100%;
+    }
+    .generation_items {
+        gap: 12px;
     }
 
   
